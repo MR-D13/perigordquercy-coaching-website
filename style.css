@@ -1,0 +1,919 @@
+/* GENERAL */
+
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+:root{
+    --GR:#e8e8e8;
+    --WH:#ffffff;
+    --OR:#f88f01;
+    --BL:#0e274e;
+}
+
+/* NAVBAR */
+
+#navMain{
+    background: var(--BL);
+    padding: 25px;
+}
+
+.navbar-toggler{
+    background: var(--OR);
+}
+
+.navIcon{
+    color: white;
+}
+
+.navIcon:hover{
+    color: var(--BL)
+}
+
+.navLogo{
+    color: white;
+}
+
+.navLogo:hover{
+    color: var(--OR);
+}
+
+.navLink{
+    color: white;
+}
+
+@media screen and (max-width: 1120px){
+    .navLink{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1070px){
+    .navLink{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1020px){
+    .navLink{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .navLink{
+        font-size: 17px;
+    }
+}
+
+.navLink:hover{
+    color: var(--OR);
+}
+
+#navbarDropdownMenuLink:hover{
+    color: var(--OR);
+}
+
+.dropdown-menu{
+    background: var(--BL);
+}
+
+.navDrop{
+    color: white;
+}
+
+.navDrop:hover{
+    color: var(--OR);
+}
+
+#navbarDropdownMenuLink{
+    color: white;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+/* FIRST HEADER */
+
+#carouselExampleFade{
+    padding: -20px 0px;
+}
+
+#firstHeader{
+    padding: 400px 0px;
+    background: url(images/header/natureroad-8.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: block;
+    position: relative;
+}
+
+@media screen and (max-width: 768px){
+    #firstHeader{
+        padding: 300px 0px;
+        background: url(images/header/natureroad-8.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.fhCitation, .fhText, .fhTitle{
+    color: white;
+}
+
+.fhTitle{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 48px;
+    color: white;
+}
+
+@media screen and (max-width: 425px){
+    .fhTitle{
+        font-size: 32px;
+    }
+}
+
+.fhCitation{
+    font-size: 38px;
+    font-style: italic;
+    letter-spacing: 4px;
+    color: white;
+}
+
+@media screen and (max-width: 425px){
+    .fhCitation{
+        font-size: 22px;
+    }
+}
+
+.fhText{
+    font-size: 19px;
+    color: white;
+}
+
+@media screen and (max-width: 425px){
+    .fhText{
+        text-align: left;
+    }
+}
+
+/* SERVICES */
+
+#services{
+    padding: 90px 0px;
+}
+
+.sTitleOne{
+    padding: 40px 0px;
+    text-transform: uppercase;
+    color: cadetblue;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 425px){
+    .sTitleOne{
+        font-size: 23px;
+    }
+}
+
+.sTitleTwo{
+    padding: 10px 0px;
+    text-align: justify;
+}
+
+.sTitleThree{
+    text-transform: uppercase;
+    font-size: 23px;
+    color: cadetblue;
+}
+
+@media screen and (max-width: 990px){
+    .sTitleThree{
+        font-size: 20px;
+    }
+}
+
+.sTitleFour{
+    font-weight: bolder;
+    font-size: 17px;
+    padding: 10px 0px;
+}
+
+.sText{
+    text-align: left;
+}
+
+@media screen and (max-width: 425px){
+    .sText{
+        text-align: left;
+    }
+}
+
+.sBtn{
+    background: cadetblue;
+}
+
+.sBtn a{
+    color: white;
+}
+
+.sBtn{
+    transition: 0.3s ease-in-out;
+}
+
+.sBtn:hover{
+    transform: scale(1.1);
+    
+}
+
+.sBtn a:hover{
+    color: var(--OR);
+}
+
+.sImg{
+    height: 240px;
+    width: 360px;
+    border-radius: 7px;
+    box-shadow: 4px 4px 12px 1px black;
+}
+
+/* SECOND HEADER */
+
+#secondHeader{
+    padding: 150px 0px;
+    background: url(images/header/sunset5.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 768px){
+    #secondHeader{
+        padding: 150px 0px;
+        background: url(images/header/sunset5.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.shTitleOne, .shText{
+    color: black;
+}
+
+.shTitleOne{
+    padding: 40px 0px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 425px){
+    .shTitleOne{
+        font-size: 32px;
+    }
+}
+
+.shTitleTwo{
+    color: white;
+    padding: 60px 0px;
+    background: black;
+    font-size: 27px;
+    border: 4px solid white;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 425px){
+    .shTitleTwo{
+        font-size: 22px;
+    }
+}
+
+.certification{
+    font-style: italic;
+    font-size: 13px;
+    color: white;
+}
+
+.shText{
+    padding: 12px 0px;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+/* FOOTER */
+
+footer{
+    padding: 8px 0px;
+    text-align: center;
+}
+
+.ftTitle, .ftProtection{
+    padding: 10px 0px;
+}
+
+/* --- PAGES --- */
+
+/* INDIVIDUAL */
+
+#CI{
+    padding: 180px 0px;
+    background: url(images/services/c-individuel.jpg) no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width:768px){
+    #CI{
+        padding: 180px 0px;
+        background: url(images/services/c-individuel.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.ciTitleOne, .ciCitationOne{
+    text-align: center;
+}
+
+.indCard{
+    border-radius: 10px;
+    border: 3px solid cadetblue;
+    background: white;
+}
+
+.ciTitleOne{
+    padding: 10px 0px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+}
+
+.ciCitationOne{
+    font-style: italic;
+    color: white;
+}
+
+.ciTitleTwo, .ciCitationTwo{
+    text-align: center;
+}
+
+.ciTitleTwo{
+    padding-top: 80px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+}
+
+.ciCitationTwo{
+    font-style: italic;
+    color: white;
+}
+
+#ciTwo{
+    padding: 80px 0px;
+    background: url(images/services/c-personal.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    border: 4px solid cadetblue;
+}
+
+.ciTitleThree{
+    color: cadetblue;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.ciRight{
+    border-radius: 5px;
+    box-shadow: 6px 4px 5px 1px;
+}
+
+.ciLeft{
+    border-radius: 5px;
+    box-shadow: -4px 4px 5px 1px;
+}
+
+.indBtn{
+    background: cadetblue;
+}
+
+.indBtn a{
+    color: white;
+}
+
+.indBtn{
+    transition: 0.3s ease-in-out;
+}
+
+.indBtn:hover{
+    transform: scale(1.1);
+}
+
+.indBtn a:hover{
+    color: orange;
+}
+
+@media screen and (max-width: 425px){
+    .firstEnt{
+        text-align: left;
+        font-size: 18px;
+    }
+}
+
+/* ENTERPRISE */
+
+#CE{
+    padding: 150px 0px;
+    background: var(--GR);
+}
+
+#ceOne{
+    padding: 50px 0px;
+}
+
+.ceTitleOne, .ceCitationOne{
+    text-align: center;
+}
+
+.ceTitleOne{
+    padding: 10px 0px;
+    text-transform: uppercase;
+    color: cadetblue;
+    font-weight: bolder;
+}
+
+.ceCitationOne{
+    font-style: italic;
+}
+
+.ceTitleTwo{
+    text-align: center;
+}
+
+.ceTitleTwo{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: cadetblue;
+    font-weight: bolder;
+}
+
+.imgProcess{
+    text-align: center;
+    padding: 30px 0px;
+}
+
+@media screen and (max-width: 425px){
+    .textProcess{
+        margin-top: 10px;
+    }
+}
+
+.schema{
+    border-radius: 10px;
+    box-shadow: 2px 1px 8px 1px;
+}
+
+.ceRight{
+    border-radius: 5px;
+    box-shadow: 6px 4px 5px 1px;
+}
+
+.resEnt{
+    border: dashed cadetblue;
+    margin: 90px 0px;
+    padding: 35px 0px;
+    background: white;
+}
+
+.resFree{
+    color: var(--OR);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.entBtn{
+    background: cadetblue;
+}
+
+.entBtn a{
+    color: white;
+}
+
+.entBtn{
+    transition: 0.3s ease-in-out;
+}
+
+.entBtn:hover{
+    transform: scale(1.1);
+}
+
+.entBtn a:hover{
+    color: orange;
+}
+
+/* RESERVATION */
+
+#RES{
+    padding: 150px 0px;
+    background: var(--GR);
+}
+
+#resOne, #resTwo{
+    margin: 50px 0px;
+    padding: 10px 0px;
+    border: 2px solid cadetblue;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 4px 4px 15px 1px black;  
+}
+
+.resTitle{
+    padding: 10px 0px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    color: cadetblue;
+}
+
+.resImgOne, .resImgTwo{
+    border-radius: 5px;
+}
+
+/*
+.resBtnOne, .resBtnTwo{
+    border: solid cadetblue;
+    background: cadetblue;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.resBtnOne:hover{
+    transform: scale(1.1);
+}
+
+.resBtnTwo:hover{
+    transform: scale(1.1);
+}
+
+.resBtnOne a, .resBtnTwo a{
+    color: black;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 768px){
+    .resBtnOne, .resBtnTwo{
+        margin-bottom: 15px;
+    }
+}
+*/
+
+.resTextOne{
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 360px){
+    .resTextOne{
+        font-size: 18px;
+        font-weight: bolder;
+    }
+}
+
+/* COACHIN ONLINE */
+
+#CEL{
+    padding: 150px 0px;
+    background: var(--GR);
+}
+
+@media screen and (max-width: 425px){
+    .textCo{
+        text-align: left;
+    }
+}
+
+.celTitle{
+    
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    color: cadetblue;
+}
+
+.comCard{
+    background: white;
+    border-radius: 10px;
+}
+
+.titleCard{
+    color: cadetblue;
+}
+
+.iconPhone, .iconCam, .iconPay{
+    margin-top: 40px ;
+}
+
+/* ---- METHODES PROPOSEES ---- */
+
+/* TRANSITION */
+
+#MP{
+    padding: 150px 0px;
+    background: var(--GR);
+    border-bottom: thick double cadetblue;
+}
+
+.trTitle{
+    text-align: center;
+    padding: 30px 0px;
+    text-transform: uppercase;
+    color: cadetblue;
+    font-weight: bolder;
+}
+
+.trCitation{
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.trRight{
+    border-radius: 5px;
+    box-shadow: 6px 4px 5px 1px;
+}
+
+/* PERFORMANCE */
+
+#PER{
+    padding: 60px 0px;
+    background: var(--GR);
+    border-bottom: thick double cadetblue;
+}
+
+.perTitle{
+    text-align: center;
+    padding: 30px 0px;
+    text-transform: uppercase;
+    color: cadetblue;
+    font-weight: bolder;
+}
+
+.perCitation{
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.perRight{
+    border-radius: 5px;
+    box-shadow: 6px 4px 5px 1px;
+}
+
+#tabTitle{
+    padding: 20px 0px;
+    font-weight: bolder;
+    color: black;
+    border: 1px solid black;
+    background: #F0B95D;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:535px){
+    #tabTitle{
+        text-align: center;
+    }
+}
+
+.tabPerf{
+    border: 1px solid black;
+    background: white;
+}
+
+.tabCol1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    font-weight: bolder;
+}
+
+.tabCol2{
+    border: 1px solid black;
+}
+
+/* Tab color */
+
+.tab-1{
+ background: #87D2ED;
+}
+
+.tab-2{
+ background: #A2F5EB;
+}
+
+.tab-3{
+ background: #9FDFBD;
+}
+
+.tab-4{
+ background: #A2F5A6;
+}
+
+.tab-5{
+ background: #AAED74;
+}
+
+.tab-6{
+   background: #7EE064; 
+}
+
+/* APPRECIATIVE INQUIRY */
+
+#AI{
+    padding: 60px 0px;
+    background: var(--GR);
+}
+
+.aiTitle{
+    text-align: center;
+    padding: 30px 0px;
+    text-transform: uppercase;
+    color: cadetblue;
+    font-weight: bolder;
+}
+
+.aiCitation{
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 425px){
+    .aiCitation{
+        text-align: left;
+    }
+}
+
+.aiRight{
+    border-radius: 5px;
+    box-shadow: 6px 4px 5px 1px;
+}
+
+/* ETHIC */
+
+#ETH{
+    padding: 180px 0px;
+    background: var(--GR);
+}
+
+.ethTitle{
+    text-align: center;
+    padding: 30px 0px;
+    text-transform: uppercase;
+    color: cadetblue;
+    font-weight: bolder;
+}
+
+.ethBtnOne, .ethBtnTwo{
+    border: solid cadetblue;
+    background: cadetblue;
+    border-radius: 10px;
+    margin-top: 25px;
+    transition: 0.3s ease-in-out;
+}
+
+.ethBtnOne a:hover{
+    color: var(--OR);
+}
+
+.ethBtnTwo a:hover{
+    color: var(--OR);
+}
+
+.ethBtnOne a, .ethBtnTwo a{
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+    .imgEth{
+        margin-top: 30px;
+    }
+}
+
+.ethRight{
+    border-radius: 5px;
+    box-shadow: 6px 4px 5px 1px;
+}
+
+/* CONTACT */
+
+#CT{
+    padding: 150px 0px;
+    background: var(--GR);
+}
+
+.contactTitle{
+    text-transform: uppercase;
+    color: cadetblue;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+.cTCard{
+    color: cadetblue;
+    text-transform: uppercase;
+}
+
+.profilPhoto{
+    border-radius: 20px;
+    box-shadow: 6px 4px 13px black;
+}
+
+.contactMes{
+    font-size: 18px;
+}
+
+.payCard{
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#btnPaypal{
+    width: 12%;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 980px){
+    #btnPaypal{
+    width: 15%;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+    }
+}
+
+@media screen and (max-width: 700px){
+    #btnPaypal{
+    width: 20%;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #btnPaypal{
+    width: 30%;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+    }
+}
+
+@media screen and (max-width: 350px){
+    #btnPaypal{
+    width: 40%;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+    }
+}
+
+#btnPaypal:hover{
+    transform: scale(1.1);
+}
+
+.snContact{
+    color: cadetblue;
+    transition: 0.3s ease-in-out;
+}
+
+.snContact:hover{
+    color: black;
+    transform: scale(1.1);
+}
+
+.contactCard{
+    background: white;
+    border-radius: 10px;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
