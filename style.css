@@ -16,6 +16,37 @@ a:link{
     --BL:#0e274e;
 }
 
+.buttonPageOne{
+    margin-top: 65px;
+} 
+
+.buttonPageTwo{
+    padding: 10px;
+    background: var(--WH);
+    transition: 0.3s ease-in-out;
+}
+
+.buttonPageTwo a{
+    color: black;
+    font-weight: bold;
+}
+
+.buttonPageTwo:hover{
+    transform: scale(1.1);
+}
+
+/* .buttonPageOne a:hover{
+    background: black;
+} */
+
+.buttonPageTwo:hover{
+    background: black;
+}
+
+.buttonPageTwo a:hover{
+    color: var(--WH);
+}
+
 /* NAVBAR */
 
 #navMain{
